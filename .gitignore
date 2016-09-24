@@ -25,6 +25,10 @@ msg/_*.py
 .project
 .cproject
 
+# Other project stuff
+.pydevproject
+cmake_install.cmake
+
 # qcreator stuff
 CMakeLists.txt.user
 
