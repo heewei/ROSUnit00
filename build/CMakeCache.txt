@@ -17,45 +17,6 @@
 //Build shared libraries (DLLs).
 BUILD_SHARED_LIBS:BOOL=ON
 
-//The directory containing a CMake configuration file for Boost.
-Boost_DIR:PATH=Boost_DIR-NOTFOUND
-
-//Boost genmsg library (debug)
-Boost_GENMSG_LIBRARY_DEBUG:FILEPATH=Boost_GENMSG_LIBRARY_DEBUG-NOTFOUND
-
-//Boost genmsg library (release)
-Boost_GENMSG_LIBRARY_RELEASE:FILEPATH=Boost_GENMSG_LIBRARY_RELEASE-NOTFOUND
-
-//Path to a file.
-Boost_INCLUDE_DIR:PATH=/usr/include
-
-//Boost library directory
-Boost_LIBRARY_DIR:PATH=/usr/lib/x86_64-linux-gnu
-
-//Boost roscpp library (debug)
-Boost_ROSCPP_LIBRARY_DEBUG:FILEPATH=Boost_ROSCPP_LIBRARY_DEBUG-NOTFOUND
-
-//Boost roscpp library (release)
-Boost_ROSCPP_LIBRARY_RELEASE:FILEPATH=Boost_ROSCPP_LIBRARY_RELEASE-NOTFOUND
-
-//Boost rospy library (debug)
-Boost_ROSPY_LIBRARY_DEBUG:FILEPATH=Boost_ROSPY_LIBRARY_DEBUG-NOTFOUND
-
-//Boost rospy library (release)
-Boost_ROSPY_LIBRARY_RELEASE:FILEPATH=Boost_ROSPY_LIBRARY_RELEASE-NOTFOUND
-
-//Boost std_msgs library (debug)
-Boost_STD_MSGS_LIBRARY_DEBUG:FILEPATH=Boost_STD_MSGS_LIBRARY_DEBUG-NOTFOUND
-
-//Boost std_msgs library (release)
-Boost_STD_MSGS_LIBRARY_RELEASE:FILEPATH=Boost_STD_MSGS_LIBRARY_RELEASE-NOTFOUND
-
-//Boost system library (debug)
-Boost_SYSTEM_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_system.so
-
-//Boost system library (release)
-Boost_SYSTEM_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_system.so
-
 //List of ';' separated packages to exclude
 CATKIN_BLACKLIST_PACKAGES:STRING=
 
@@ -296,18 +257,6 @@ catkin_DIR:PATH=/opt/ros/indigo/share/catkin/cmake
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/indigo/share/cpp_common/cmake
 
-//The directory containing a CMake configuration file for gencpp.
-gencpp_DIR:PATH=/opt/ros/indigo/share/gencpp/cmake
-
-//The directory containing a CMake configuration file for genlisp.
-genlisp_DIR:PATH=/opt/ros/indigo/share/genlisp/cmake
-
-//The directory containing a CMake configuration file for genmsg.
-genmsg_DIR:PATH=/opt/ros/indigo/share/genmsg/cmake
-
-//The directory containing a CMake configuration file for genpy.
-genpy_DIR:PATH=/opt/ros/indigo/share/genpy/cmake
-
 //Value Computed by CMake
 gtest_BINARY_DIR:STATIC=/home/hewei/rosWS/build/gtest
 
@@ -363,9 +312,6 @@ rostime_DIR:PATH=/opt/ros/indigo/share/rostime/cmake
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/indigo/share/std_msgs/cmake
 
-//The directory containing a CMake configuration file for system.
-system_DIR:PATH=system_DIR-NOTFOUND
-
 //Value Computed by CMake
 tutorial_BINARY_DIR:STATIC=/home/hewei/rosWS/build/tutorial
 
@@ -380,32 +326,6 @@ xmlrpcpp_DIR:PATH=/opt/ros/indigo/share/xmlrpcpp/cmake
 # INTERNAL cache entries
 ########################
 
-//ADVANCED property for variable: Boost_DIR
-Boost_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_GENMSG_LIBRARY_DEBUG
-Boost_GENMSG_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_GENMSG_LIBRARY_RELEASE
-Boost_GENMSG_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_INCLUDE_DIR
-Boost_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_LIBRARY_DIR
-Boost_LIBRARY_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_ROSCPP_LIBRARY_DEBUG
-Boost_ROSCPP_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_ROSCPP_LIBRARY_RELEASE
-Boost_ROSCPP_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_ROSPY_LIBRARY_DEBUG
-Boost_ROSPY_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_ROSPY_LIBRARY_RELEASE
-Boost_ROSPY_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_STD_MSGS_LIBRARY_DEBUG
-Boost_STD_MSGS_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_STD_MSGS_LIBRARY_RELEASE
-Boost_STD_MSGS_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_SYSTEM_LIBRARY_DEBUG
-Boost_SYSTEM_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_SYSTEM_LIBRARY_RELEASE
-Boost_SYSTEM_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //catkin environment
 CATKIN_ENV:INTERNAL=/home/hewei/rosWS/build/catkin_generated/env_cached.sh
 CATKIN_TEST_RESULTS_DIR:INTERNAL=/home/hewei/rosWS/build/test_results
@@ -569,12 +489,4 @@ PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 //  And it needs to match.  But setuptools won't tell us where
 // it will install things.
 PYTHON_INSTALL_DIR:INTERNAL=lib/python2.7/dist-packages
-//Components requested for this build tree.
-_Boost_COMPONENTS_SEARCHED:INTERNAL=genmsg;roscpp;rospy;std_msgs;system
-//Last used Boost_INCLUDE_DIR value.
-_Boost_INCLUDE_DIR_LAST:INTERNAL=/usr/include
-//Last used Boost_LIBRARY_DIR value.
-_Boost_LIBRARY_DIR_LAST:INTERNAL=/usr/lib/x86_64-linux-gnu
-//Last used Boost_USE_MULTITHREADED value.
-_Boost_USE_MULTITHREADED_LAST:INTERNAL=TRUE
 
