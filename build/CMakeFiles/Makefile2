@@ -624,15 +624,15 @@ clean: tutorial/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 # Target rules for target tutorial/CMakeFiles/tutorial_node.dir
 
 # All Build rule for target.
-tutorial/CMakeFiles/tutorial_node.dir/all: tutorial/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 tutorial/CMakeFiles/tutorial_node.dir/all: tutorial/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+tutorial/CMakeFiles/tutorial_node.dir/all: tutorial/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+tutorial/CMakeFiles/tutorial_node.dir/all: tutorial/CMakeFiles/roscpp_generate_messages_py.dir/all
+tutorial/CMakeFiles/tutorial_node.dir/all: tutorial/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 tutorial/CMakeFiles/tutorial_node.dir/all: tutorial/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 tutorial/CMakeFiles/tutorial_node.dir/all: tutorial/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-tutorial/CMakeFiles/tutorial_node.dir/all: tutorial/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-tutorial/CMakeFiles/tutorial_node.dir/all: tutorial/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 tutorial/CMakeFiles/tutorial_node.dir/all: tutorial/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 tutorial/CMakeFiles/tutorial_node.dir/all: tutorial/CMakeFiles/std_msgs_generate_messages_py.dir/all
-tutorial/CMakeFiles/tutorial_node.dir/all: tutorial/CMakeFiles/roscpp_generate_messages_py.dir/all
+tutorial/CMakeFiles/tutorial_node.dir/all: tutorial/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 	$(MAKE) -f tutorial/CMakeFiles/tutorial_node.dir/build.make tutorial/CMakeFiles/tutorial_node.dir/depend
 	$(MAKE) -f tutorial/CMakeFiles/tutorial_node.dir/build.make tutorial/CMakeFiles/tutorial_node.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/hewei/rosWS/build/CMakeFiles  3 4

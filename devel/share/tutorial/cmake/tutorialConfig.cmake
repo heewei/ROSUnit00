@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(tutorial_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/hewei/rosWS/src/tutorial/inc;/opt/ros/indigo/include;/usr/include " STREQUAL " ")
+if(NOT "/home/hewei/rosWS/src/tutorial/include;/opt/ros/indigo/include;/usr/include " STREQUAL " ")
   set(tutorial_INCLUDE_DIRS "")
-  set(_include_dirs "/home/hewei/rosWS/src/tutorial/inc;/opt/ros/indigo/include;/usr/include")
+  set(_include_dirs "/home/hewei/rosWS/src/tutorial/include;/opt/ros/indigo/include;/usr/include")
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
       set(include ${idir})
