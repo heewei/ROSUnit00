@@ -7,5 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH="/opt/ros/indigo/lib/x86_64-linux-gnu:/home/hewei/rosWS/devel/lib:/opt/ros/indigo/lib:/opt/ros/jade/lib"
+export PKG_CONFIG_PATH="/opt/ros/indigo/lib/x86_64-linux-gnu/pkgconfig:/home/hewei/rosWS/devel/lib/pkgconfig:/opt/ros/indigo/lib/pkgconfig:/opt/ros/jade/lib/pkgconfig"
 export PWD="/home/hewei/rosWS/build"

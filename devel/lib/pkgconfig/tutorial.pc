@@ -3,6 +3,6 @@ prefix=/home/hewei/rosWS/devel
 Name: tutorial
 Description: Description of tutorial
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/hewei/rosWS/src/tutorial/inc -I/opt/ros/indigo/include -I/usr/include
 Libs: -L/home/hewei/rosWS/devel/lib 
 Requires: 
