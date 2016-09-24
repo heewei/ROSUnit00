@@ -1,0 +1,2 @@
+tutorial
+-DCATKIN_DEVEL_PREFIX=/home/hewei/rosWS/devel -DCMAKE_INSTALL_PREFIX=/home/hewei/rosWS/install -G Unix Makefiles

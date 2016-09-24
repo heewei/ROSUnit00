@@ -1,0 +1,8 @@
+prefix=/home/hewei/rosWS/install
+
+Name: tutorial
+Description: Description of tutorial
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/hewei/rosWS/install/lib 
+Requires: 
